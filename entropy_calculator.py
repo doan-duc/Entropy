@@ -103,7 +103,7 @@ def analyze_binary_data(data: bytes, source_name: str = "Binary") -> Dict:
     
     entropy = calculate_entropy(probabilities)
     num_symbols = len(frequencies)
-    max_entropy = calculate_max_entropy(256)  # Tối đa 256 byte values
+    max_entropy = calculate_max_entropy(num_symbols)  # Tính theo số ký hiệu thực tế
     efficiency = calculate_efficiency(entropy, max_entropy)
     
     sorted_probs = dict(sorted(probabilities_str.items(), 
