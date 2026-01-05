@@ -39,7 +39,7 @@ python main_app.py
 ## 2. Phần lý thuyết
 
 ### Entropy Shannon là gì?
-Entropy ($H$) đo lường độ hỗn loạn hoặc lượng thông tin trung bình của một nguồn tin. Công thức tính:
+Entropy ($H$) đo lường lượng thông tin trung bình của một nguồn tin. Công thức tính:
 $$H(X) = -\sum_{i=1}^{n} p(x_i) \cdot \log_2(p(x_i))$$
 *   **$p(x_i)$**: Xác suất xuất hiện của ký hiệu $x_i$.
 *   **$H$ cao**: Nguồn tin ngẫu nhiên, khó dự đoán (chứa nhiều thông tin).
@@ -85,4 +85,5 @@ $$H(X) = -\sum_{i=1}^{n} p(x_i) \cdot \log_2(p(x_i))$$
 4.  **Phân tích lỗi truyền tin**: Sử dụng Entropy để đánh giá độ nhiễu và chất lượng của việc truyền dữ liệu qua các kênh viễn thông.
 
 ---
+
 
