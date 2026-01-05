@@ -63,8 +63,6 @@ $$H(X) = -\sum_{i=1}^{n} p(x_i) \cdot \log_2(p(x_i))$$
     Phần dung lượng của nguồn tin dùng để chứa các thông tin mang tính lặp lại hoặc có thể suy luận được từ ngữ cảnh.
     *   **Công thức**: 
     $$R_s = \frac{H_{max} - H(X)}{H_{max}}$$
-    *Trong ứng dụng này, chúng tôi nhân với 100% để hiển thị dưới dạng phần trăm:*
-    $$R_s (\%) = (1 - \eta) \cdot 100\%$$
     *   **Ý nghĩa**: Trong ngôn ngữ tự nhiên, độ dư tương đối cao giúp con người có thể hiểu được thông báo ngay cả khi bị mất một vài ký tự trong quá trình truyền tin (nhờ ngữ pháp, ngữ cảnh).
 
 ---
@@ -87,3 +85,4 @@ $$H(X) = -\sum_{i=1}^{n} p(x_i) \cdot \log_2(p(x_i))$$
 4.  **Phân tích lỗi truyền tin**: Sử dụng Entropy để đánh giá độ nhiễu và chất lượng của việc truyền dữ liệu qua các kênh viễn thông.
 
 ---
+
